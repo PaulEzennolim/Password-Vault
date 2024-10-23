@@ -107,7 +107,7 @@ def hashPassword(input_password):
     str: The SHA-256 hashed representation of the password in hexadecimal format.
     """
     # Convert the input password to a byte-like object for hashing
-    hash1 = hashlib.sha256(input_password)  # Creates a SHA-256 hash object from the password
+    hash1 = hashlib.sha256(input_password) # Creates a SHA-256 hash object from the password
     # Convert the hash object to a readable hexadecimal string
     hash1 = hash1.hexdigest()  # Converts the hash object to a hex string
     return hash1
