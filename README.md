@@ -48,6 +48,7 @@ The project also features an encrypted SQLite database that ensures all your sen
 You can install any missing dependencies with the following command:
 
 ```bash
-pip install cryptography pyperclip
+pip install cryptography pyperclip 
+```
 
 Thank you for taking the time to check out this project!
